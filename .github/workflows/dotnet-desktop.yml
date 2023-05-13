@@ -6,16 +6,20 @@ jobs:
   publish-docs:
     runs-on: ubuntu-latest
     steps:
+    # Actions от github: проверяет репозиторий, гит и т.д.
     - name: Chekout
       uses: actions/checkout@v3
+    # Устанавливает среду .net с конкретной версией 
     - name: Dotnet Setup
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.x
-
+    # устанавливает последнюю версию docfx
     - run: dotnet tool update -g docfx
+    # создает json файл
     - run: docfx build docfx_project/docfx.json
-
+    
+    #развертывает статический файл 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
