@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "9q1tFckFzJqpgG64neIUrdhQLvmz6ck2j860eqd13GOEIWTRQQgC2cxQuvIrbXWkAdtqDxiGPX+RZ9b4aUFh+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rozhd\\source\\DocFXExample\\src\\DocFXExample\\DocFXExample.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.ics.perm.ru/api/v2/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

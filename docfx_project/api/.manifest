@@ -1,0 +1,5 @@
+{
+  "DocFXExample": "DocFXExample.yml",
+  "DocFXExample.Example": "DocFXExample.Example.yml",
+  "DocFXExample.Example.Divide(System.Int32,System.Int32)": "DocFXExample.Example.yml"
+}

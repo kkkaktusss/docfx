@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: DocFXExample
+  commentId: N:DocFXExample
+  id: DocFXExample
+  children:
+  - DocFXExample.Example
+  langs:
+  - csharp
+  - vb
+  name: DocFXExample
+  nameWithType: DocFXExample
+  fullName: DocFXExample
+  type: Namespace
+  assemblies:
+  - Taranis.DocFXExample
+references:
+- uid: DocFXExample.Example
+  commentId: T:DocFXExample.Example
+  href: DocFXExample.Example.html
+  name: Example
+  nameWithType: Example
+  fullName: DocFXExample.Example
